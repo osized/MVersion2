@@ -7,8 +7,6 @@ def get_dict_words(text):
     for word in replaced_comment.split(' '):
         if word and not is_stop_word(word):
             sentence.append(word)
-    if len(sentence) == 0:
-        print("WTF...NORMALIZATION:" +text)
     return sentence
 
 def normalize_all_data(array):

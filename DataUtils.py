@@ -6,10 +6,10 @@ comments_data = pd.read_csv('/Users/admin/Documents/hackathon/mvidia/dataset1.cs
 
 categories = comments_data.CATEGORY_ID.unique()
 testing_categories = [
-    1070907, #tv
-    2030201, #notebook
+  #  1070907, #tv
+  #  2030201, #notebook
     2050101, #smartphones
-    4030101, #washing mashines
+  #  4030101, #washing mashines
     #todo холодильники пылесосы посудомойки
 ]
 
